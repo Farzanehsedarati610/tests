@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Symbolic Account Probe</title>
+  <style>
+    body {
+      background: #111;
+      color: #eee;
+      font-family: monospace;
+      padding: 2rem;
+    }
+    button {
+      background: #313131;
+      color: #0ff;
+      border: 1px solid #0ff;
+      padding: 1rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    #log {
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #222;
+      border: 1px dashed #444;
+      height: 300px;
+      overflow-y: scroll;
+    }
+  </style>
+</head>
+<body>
+  <h1>Symbolic Account Probe ⚡</h1>
+  <button onclick="runTransfer()">Run Transfer Check</button>
+
+  <div id="log">Initializing symbolic console...</div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+
